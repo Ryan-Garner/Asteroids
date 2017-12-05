@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    background-image: url('../Assets/background.jpg');
+}
+
+#game {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 900px;
+    height: 900px;
+    z-index: 15;
+    margin: -500px 0 0 -500px;
+    background-image: url('../Assets/main-menu.jpg');
+    background-size: 900px 900px;
+    border-style: solid;
+    border-color: black;
+    
+    
+}
+
+#controls {
+    color: forestgreen;
+}
+
+#credits {
+     color: forestgreen;
+}
+
+#high-scores {
+     color: forestgreen;
+}
+
+#myCanvas {
+    background-image: url('../Assets/canvas-background.jpg');
+    background-size: 900px 900px;
+}
+
+ul.menu {
+    margin-top: 200px;
+    text-align: center;
+    list-style: none;
+}
+
+ul.menu li{
+    margin: 5em 0;
+}
+
+#game .screen{
+    display: none;
+}
+
+#game .screen.active {
+    display: block;
+}
+
+/*Button style created at https://www.sanwebe.com/css3-button-generator*/
+
+.buttons{
+ display: inline-block;
+ border:1px solid #784902;
+ color: #7CFF73;
+ border-radius: 3px 3px 3px 3px;
+ -webkit-border-radius: 3px 3px 3px 3px;
+ -moz-border-radius: 3px 3px 3px 3px;
+ font-family: Trebuchet MS;
+ width: auto;
+ height: auto;
+ font-size: 16px;
+ padding: 10px 40px;
+ box-shadow: inset 0px -1px 12px 0 #010203,inset 0 -1px 0 0 #4400FF,inset 0 0 0 1px #9E9258,0 2px 4px 0 #D4D4D4;
+ -moz-box-shadow: inset 0px -1px 12px 0 #010203,inset 0 -1px 0 0 #4400FF,inset 0 0 0 1px #9E9258,0 2px 4px 0 #D4D4D4;
+ -webkit-box-shadow: inset 0px -1px 12px 0 #010203,inset 0 -1px 0 0 #4400FF,inset 0 0 0 1px #9E9258,0 2px 4px 0 #D4D4D4;
+ text-shadow: 0 1px 0 #FFFFFF;
+ background-image: linear-gradient(to top, #9C1A86, #121910);
+ background-color: #940A14;
+}
+
+/*Button hover style created at https://www.sanwebe.com/css3-button-generator it's not working right now not sure why yet*/
+
+.buttons:hover, .buttons:active {
+ border:1px solid #967D09;
+ color: #C0C2AC;
+ box-shadow: 0 1px 0 0 #6B8385,inset 0 -1px 0 0 #1220E3,inset 0 0 0 1px #3719FC;
+ -moz-box-shadow: 0 1px 0 0 #6B8385,inset 0 -1px 0 0 #1220E3,inset 0 0 0 1px #3719FC;
+ -webkit-box-shadow: 0 1px 0 0 #6B8385,inset 0 -1px 0 0 #1220E3,inset 0 0 0 1px #3719FC;
+ background-color: #69797A;
+}

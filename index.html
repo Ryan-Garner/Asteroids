@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang = "en-US">
+<head>
+    <meta charset = "UTF-8">
+    <title> Asteroids </title>
+
+    <link rel = "stylesheet" type = "text/css" href = "styles/asteroids_style.css">
+</head>
+<body onload = "MyGame.game.initialize();">
+    <div id = "game">
+        <div id = "main-menu" class = "screen active">
+            <ul class = "menu">
+                <li><button id = "new-game" class = "buttons"> New Game </button></li>
+                <li><button id = "control-b" class = "buttons"> Controls </button></li>
+                <li><button id = "high-scores-b" class = "buttons"> High Scores </button></li>
+                <li><button id = "credits-b" class = "buttons"> Credits </button></li>
+            </ul>
+        </div>
+        <div id = "asteroids" class = "screen">
+            <button id = "asteroids-back" class = "back buttons">back</button>
+            <canvas id = "myCanvas" width="900" height="900"></canvas>
+        </div>
+        <div id = "controls" class = "screen">
+            <button id = "controls-back" class = "back buttons"> Back </button>
+        </div>
+        <div id = "high-scores" class = "screen">
+            <ul>
+                <li> 1: 5 </li>
+                <li> 2: 4 </li>
+                <li> 3: 3 </li>
+                <li> 4: 2 </li>
+                <li> 5: 1 </li>
+            </ul>
+            <button id = "high-back" class = "back buttons"> Back </button>
+        </div>
+        <div id = "credits" class = "screen">
+            <ul>
+                <li><h1>Created by Ryan Garner</h1></li>
+                <li><h2>Taught by Dean Mathias</h2></li>
+                <li>Art from http://millionthvector.blogspot.com/p/free-sprites.html, and https://opengameart.org/ and http://freegameassets.blogspot.com/2015/02/space-patrol-sprite-sheet-this-space.html</li>
+                <li>
+            </ul>
+            <button id = "credits-back" class = "back buttons"> Back </button>
+        </div>
+    </div>
+    <script src = "Scripts/game.js"></script>
+    <script src = "Scripts/Screens/asteroids.js"></script>
+    <script src = "Scripts/Screens/controls.js"></script>
+    <script src = "Scripts/Screens/credits.js"></script>
+    <script src = "Scripts/Screens/highScores.js"></script>
+    <script src = "Scripts/Screens/main.js"></script>
+    <script src = "Scripts/Rendering/asteroidField.js"></script>
+    <script src = "Scripts/Rendering/asteroidField.js"></script>
+    <script src = "Scripts/Rendering/bullet.js"></script>
+    <script src = "Scripts/Rendering/core.js"></script>
+    <script src = "Scripts/Rendering/explosion.js"></script>
+    <script src = "Scripts/Rendering/ship.js"></script>
+    <script src = "Scripts/Rendering/sprite.js"></script>
+    <script src = "Scripts/Input/keyboard.js"></script>
+    <script src = "Scripts/Components/asteroid.js"></script>
+    <script src = "Scripts/Components/asteroidField.js"></script>
+    <script src = "Scripts/Components/asteroidSprite.js"></script>
+    <script src = "Scripts/Components/bullet.js"></script>
+    <script src = "Scripts/Components/bullets.js"></script>
+    <script src = "Scripts/Components/explosion.js"></script>
+    <script src = "Scripts/Components/explosions.js"></script>
+    <script src = "Scripts/Components/ship.js"></script>
+    <script src = "Scripts/Components/sprite.js"></script>
+</body> 
